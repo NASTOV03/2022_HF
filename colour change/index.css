@@ -1,0 +1,19 @@
+body{
+    padding: 1em;
+}
+
+.btns{
+    width: 100%;
+    gap: 1em;
+}
+
+.colors, .size, .fonts{
+    margin: 1em;
+    width: 100%;
+}
+
+button{
+    width: calc(100% / 3 - 3em);
+    margin: 1em;
+}
+

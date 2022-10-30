@@ -1,0 +1,89 @@
+body{
+    background-color: #0a3a5e;
+    overflow: hidden;
+}
+
+.h2{
+    position: relative;
+    color: #FFA400;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.form{
+    display:none;
+    margin: 3em auto;
+    background: #FFA400;
+    padding: 1em;
+    border-radius: 1em;
+    width: 19em;
+    height: 12em;
+}
+
+form div{
+    padding-left: 1em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+input{
+
+    background: transparent;
+    border-width: 0 0 1px 0;
+    float: right;
+    height: 2em;
+    outline: none;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+label{
+    position: absolute;
+    margin-top: 0.5em;
+}
+
+
+#submit{
+    position: relative;
+    left: -50%;
+    transform: translateX(50%) translateY(50%);
+    border: none;
+    border-radius: 0.5em;
+    background-color: rgba(104, 101, 210, 0.8);
+    color: black;
+}
+
+#submit:hover{
+    background-color: rgb(104, 101, 210);
+}
+
+.selection{
+    background-color: #FFA400;
+    width: 20em;
+    height: 2em;
+    padding-left: 1em;
+    border-radius: 0.5em;
+    margin: 0 auto;
+}
+
+.selection label{
+    position: relative;
+    float: left;
+}
+
+.selection input{
+    position: relative;
+    float: left;
+    margin-left: 1em;
+}

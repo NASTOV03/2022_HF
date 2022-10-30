@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="h2">
+    <h2>THE PET DATA FORM</h2>
+</div>
+<div class="form">
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input name="age" id="age" type="number" min="0">
+        </div>
+        <div>
+            <label for="weight">Weight</label>
+            <input name="weight" id="weight" type="number">
+        </div>
+        <div>
+            <label for="type">Type</label>
+            <input name="type" id="type" type="text">
+        </div>
+        <div>
+            <label for="like">What It Likes</label>
+            <input name="like" id="like" type="text">
+        </div>
+        <input onclick="submitPet()" id="submit" type="button" value="submit">
+    </form>
+</div>
+</body>
+</html>
